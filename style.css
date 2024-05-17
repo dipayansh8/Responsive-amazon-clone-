@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 6 vw;
+    gap: 1.5vw;
+
+
+}
+
+/* 1st nav */
+.logo img {
+    width: 10vw;
+    height: 10vh;
+    cursor: pointer;
+
+}
+
+.logo img:hover {
+    background-color: rgba(255, 255, 255, 0.207);
+    color: #1b1b1b;
+    border-radius: 5px;
+
+}
+
+/* 2nd nav */
+
+.nav-adress {
+    display: flex;
+
+    width: 9vw;
+    cursor: pointer;
+
+}
+
+
+
+.nav-add-loc p {
+    margin-top: -.3vw;
+
+    margin-left: .5vw;
+
+}
+
+.nav-cou {
+    align-content: center;
+    margin-left: -4.5vw;
+    margin-top: 10px;
+
+
+}
+
+/* 3rd nav */
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 35vw;
+    border: 2px;
+
+}
+
+.nav-search input {
+    width: 29vw;
+    height: 40px;
+
+}
+
+.search-icon {
+    background-color: orange;
+    width: 4vw;
+    height: 40px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.nav-search select {
+    width: 4vw;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+/* 4th nav */
+.nav-signin:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.207);
+}
+
+.nav-signin:hover {
+    padding: .7vw;
+}
+
+/* 5th nav */
+.nav-orders {
+    font-size: 18px;
+    padding: .7vw;
+
+}
+
+.nav-orders:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.207);
+}
+
+
+/* 6th nav */
+.nav-cart {
+    display: flex;
+    padding: 1.1vw;
+
+}
+
+.nav-cart:hover {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.207);
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart p {
+    font-size: 20px;
+    align-content: center;
+    margin-top: -15px;
+    cursor: pointer;
+
+}
+
+.nav-cart p:hover {
+    text-decoration: underline;
+
+
+}
+
+/* nav-end************************ */
+/* panel-section */
+.panel-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    height: 3.5vw;
+    width: 100vw;
+    font-size: 1.4vw;
+}
+
+.panel-section p:hover {
+    background-color: rgba(255, 255, 255, 0.89);
+    color: #1b1b1b;
+    border-radius: 3px;
+}
+
+.panel1 {
+    display: flex;
+    width: 60vw;
+    margin-left: 15px;
+    gap: 10vw;
+
+}
+
+.panel-option {
+    display: flex;
+    justify-content: space-evenly;
+
+
+    width: 20vw;
+    gap: 2vw;
+
+}
+
+.panel-shop {
+    margin-right: 12px;
+}
+
+/* panel end ********************************/
+/* main section start */
+/* hero-section start */
+.hero-section {
+    height: 50vh;
+    width: 100vw;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5vw;
+}
+
+.hero-section p {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.hero-section a {
+    color: #007185;
+}
+
+/* box -section start ***********************/
+.box-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding: 10px;
+    width: 100vw;
+
+
+}
+
+.box {
+    border: 1px solid black;
+    width: 23vw;
+    height: 400px;
+    background-color: white;
+    margin: .5vw .2vw;
+}
+
+.box-image img {
+    width: 18vw;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+/* box-section end *******************************/
+/* footer***************************************** */
+.footer1 {
+    height: 50px;
+
+    background-color: #37475a;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    color: white;
+
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    height: 150px;
+    color: white;
+    font-size: 1.2vw;
+
+
+}
+
+.footer2 ul li {
+    font-size: 1.1vw;
+
+}
+
+.footer2a {
+    display: none;
+}
+
+.footer3 {
+    margin-top: 1px;
+    background-color: #222f3d;
+    text-align: center;
+
+
+}
+
+.footer4 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.footer4 {
+    padding: 1vw 1vw;
+
+    font-size: 1.4vw;
+}
+
+@media only screen and (max-width:830px) {
+    .nav-adress {
+        display: flex;
+        gap: -2vw;
+        line-height: 1.7vw;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .hero-section {
+        height: 40vw;
+        background-image: url("hero_image.jpg");
+
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .hero-section p {
+        font-size: 2.2vw;
+        width: 90vw;
+    }
+
+    .footer1 {
+        min-width: 100vw;
+    }
+
+
+    .footer2 {
+        display: none;
+    }
+
+    .footer2a {
+        display: flex;
+        background-color: #222f3d86;
+        justify-content: center;
+    }
+
+    .footer2a ul {
+        width: 36vw;
+    }
+
+
+
+    .hide {
+        display: none;
+    }
+
+    .panel-section {
+        height: 5vw;
+        font-size: 2vw;
+
+    }
+
+    .box-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .box {
+        width: 90vw;
+        margin: auto;
+
+    }
+
+    .box-image img {
+        width: 85vw;
+    }
+
+
+
+
+
+
+    .nav-search {
+        width: 45vw;
+        margin: auto;
+    }
+
+    .nav-search input {
+        width: 37vw;
+    }
+
+    .nav-search .search-icon {
+        width: 4vw;
+    }
+
+    .nav-search select {
+        width: 4vw;
+    }
+
+
+}
+
+@media only screen and (max-width:450px) {
+
+    .footer4 {
+        font-size: 2.8vw;
+    }
+}
